@@ -20,7 +20,7 @@ app.set("view engine", "ejs");
 
 // database connection
 const dbURI =
-  "mongodb+srv://user123:test123@node-practice.rubk6.mongodb.net/Interview_Tracker";
+  "mongodb+srv://anu123:test123@node-practice.rubk6.mongodb.net/Interview_Tracker";
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
